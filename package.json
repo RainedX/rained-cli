@@ -1,0 +1,24 @@
+{
+  "name": "rained-cli",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "bin": {
+    "rain": "bin/index.js"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RainedX/rained-cli.git"
+  },
+  "keywords": [],
+  "author": "RainedX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RainedX/rained-cli/issues"
+  },
+  "homepage": "https://github.com/RainedX/rained-cli#readme",
+  "dependencies": {
+    "commander": "^7.2.0"
+  }
+}
