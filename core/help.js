@@ -9,8 +9,8 @@ const handleHelp = () => {
 
   program.on('--help', function () {
     console.log('');
-    console.log('Other:');
-    console.log(' other options');
+    console.log('Usage');
+    console.log(' rain --version');
   });
 };
 
