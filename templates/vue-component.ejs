@@ -1,0 +1,22 @@
+<template>
+  <div class="wrapper">
+    {{ message }}
+  </div>
+</template>
+
+<script>
+export default {
+  name: "<%= data.name %>",
+  data() {
+    return {
+      message: "<%= data.name %>"
+    };
+  }
+};
+</script>
+
+<style scoped>
+.wrapper {
+  width: 100%;
+}
+</style>

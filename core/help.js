@@ -1,12 +1,7 @@
 const { program } = require('commander')
 
 const handleHelp = () => {
-  program.option('-d --desc', 'a tool for Backend Management System');
-  program.option(
-    '-t --target <target>',
-    'a destination folder, eg: -t /src/components',
-  );
-
+  program.option('-d --dest <dest>', 'a destination folder, eg: -d src/components')
   program.on('--help', function () {
     console.log('');
     console.log('Usage');

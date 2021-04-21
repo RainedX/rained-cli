@@ -9,8 +9,10 @@ const handleCommand = () => {
 
   program
   .command('addc <name>')
-  .description('add a component, eg: rain addc Home -d src/components')
-  .action(handleAddAction)
+  .description('add a component, eg: rain addc cascader')
+  .action((name) => {
+    handleAddAction(name, program.opts().dest || 'src/components')
+  })
 }
 
 module.exports = handleCommand
