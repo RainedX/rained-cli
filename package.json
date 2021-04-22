@@ -2,7 +2,7 @@
   "name": "rained-cli",
   "version": "0.0.1",
   "description": "",
-  "private": true,
+  "private": false,
   "bin": {
     "rain": "bin/index.js"
   },
@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/RainedX/rained-cli.git"
   },
-  "keywords": [],
+  "keywords": [
+    "vue",
+    "admin",
+    "cli"
+  ],
   "author": "RainedX",
   "license": "MIT",
   "bugs": {
