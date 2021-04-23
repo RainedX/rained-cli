@@ -2,8 +2,8 @@
 const { program } = require('commander')
 const { version } = require('../package.json')
 
-const handleHelp = require('../core/help.js')
-const handleCommand = require('../core/command.js')
+const handleHelp = require('../src/core/help.js')
+const handleCommand = require('../src/core/command.js')
 
 program.version(version);
 
