@@ -1,5 +1,5 @@
 const repoUrl =
-  'direct:https://code.idiaoyan.cn/yq.deng/vue-admin-template.git';
+  'direct:https://xxx.git';
 const promptTypeList = [
   {
     type: 'input',
